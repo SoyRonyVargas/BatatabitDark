@@ -1,0 +1,35 @@
+.plans__container--slider
+{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;
+}
+.products__cards--content
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.main__tables--container
+{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+
+footer
+{
+    display: flex;
+}
+
+footer > section:first-of-type
+{
+    margin-bottom: 0;
+}
+
+footer img
+{
+    min-width: 100px;
+}
