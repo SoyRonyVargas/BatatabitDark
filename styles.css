@@ -838,6 +838,7 @@ span.icon-ripple {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .ask__item span {
@@ -866,8 +867,28 @@ span.icon-ripple {
 }
 
 /* MODAL */
-
-
+.modal
+{
+    background-color: var(--off-dark) !important;
+    color: var(--just-white) !important;
+}
+.modal h4
+{
+    font-size: 1.8rem;
+}
+.modal p, .modal ul
+{
+    padding: 0;
+    font-size: 1.4rem;
+    margin: 5px 0;
+}
+.modal a
+{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--bitcoin-orange);
+    font-weight: bold;
+}
 
 footer {
     display: block;
@@ -908,3 +929,4 @@ footer .left ul {
     display: block;
     text-align: center;
 }
+
