@@ -67,18 +67,19 @@ header {
     padding: 50px 0;
 }
 
-header>.logo {
+header > .logo {
     width: 180px;
     height: 24px;
     margin-top: 0px;
     align-self: center;
 }
 
-header>.hero {
-    margin: 0 auto;
+header > .hero {
+    margin: 30px auto;
     display: block;
     max-width: 320px;
-    max-width: 300px;
+    max-width: 280px;
+    height: 280px;
 }
 
 .header__title-container {
@@ -86,7 +87,7 @@ header>.hero {
     min-width: 288px;
     max-width: 900px;
     align-self: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     text-align: center;
 }
 
@@ -868,74 +869,6 @@ span.icon-ripple {
 /* MODAL */
 
 
-.modal-wrapper {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, .8);
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.25s ease-in-out;
-}
-
-.modal-wrapper.open {
-    opacity: 1;
-    visibility: visible;
-}
-
-.modal {
-    margin: 0 auto;
-    width: 95%;
-    height: 400px;
-    display: block;
-    margin:45% 0 0 -45%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    background: #fff;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-}
-
-.modal-wrapper.open .modal {
-    margin-top: -200px;
-    opacity: 1;
-}
-
-.head {
-    width: 90%;
-    height: 32px;
-    padding: 12px 30px;
-    overflow: hidden;
-    background: #e2525c;
-}
-
-.btn-close {
-    font-size: 28px;
-    display: block;
-    float: right;
-    color: #fff;
-}
-
-.content {
-    padding: 10%;
-}
-
-.good-job {
-    text-align: center;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    color: #e2525c;
-}
-
-.good-job .fa-thumbs-o-up {
-    font-size: 60px;
-}
-
-.good-job h1 {
-    font-size: 45px;
-}
 
 footer {
     display: block;
