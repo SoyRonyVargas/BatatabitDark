@@ -1,4 +1,11 @@
 .plans__container--slider
 {
-    width: 50%;
+    width: 65%;
+}
+.asks__grid
+{
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2,1fr);
+    width: 30%;
+    margin: 20px auto;
 }

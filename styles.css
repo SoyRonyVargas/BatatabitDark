@@ -185,13 +185,11 @@ main {
     color: var(--grey);
 }
 
-.main__tables--container {}
-
 .main__currency--table {
 
     width: 70%;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 400px;
     /* height: 360px; */
     margin: 0 auto;
     font-family: "Inter", sans-serif;

@@ -25,18 +25,18 @@
 
     <header>
 
-        <img src="./assets/img/logo.svg" class="logo" alt="Logo Batatabit" />
+        <img src="./assets/img/logo.svg" class="logo headline" alt="Logo Batatabit" />
 
-        <img src="./assets/img/Bitcoin-pana.svg" alt="Hero Batatabit" class="hero" />
+        <img src="./assets/img/Bitcoin-pana.svg" alt="Hero Batatabit" class="hero headline2" />
 
         <div class="header__title-container">
-            <h1>
+            <h1 class="headline3">
                 La próxima revolución en el intercambio de criptomonedas.
             </h1>
-            <p>
+            <p class="headline4">
                 Batatabit te ayuda a navegar entre los diferentes precios y tendencias.
             </p>
-            <a href="#plans" class="header__button">
+            <a href="#plans" class="header__button headline5">
                 Conoce Nuestros Planes
                 <span></span>
             </a>
@@ -325,4 +325,37 @@
 
 </body>
 
+<script src="js/scroll.js"></script>
+<script>
+    const config1 = {
+        delay: 350,
+        distance: '15px'
+    }
+    const config2 = {
+        delay: 550,
+        distance: '20px',
+        easing: 'cubic-bezier(0.5, 0, 0, 1)'
+    }
+    const config3 = {
+        delay: 750,
+        distance: '20px',
+        easing: 'cubic-bezier(0.5, 0, 0, 1)'
+    }
+    const config4 = {
+        delay: 850,
+        distance: '20px',
+        easing: 'cubic-bezier(0.5, 0, 0, 1)'
+    }
+    const config5 = {
+        delay: 950,
+        distance: '20px',
+        easing: 'cubic-bezier(0.5, 0, 0, 1)'
+    }
+    ScrollReveal().reveal('.headline' , config1);
+    ScrollReveal().reveal('.headline2' , config2);
+    ScrollReveal().reveal('.headline3' , config3);
+    ScrollReveal().reveal('.headline4' , config4);
+    ScrollReveal().reveal('.headline5' , config5);
+
+</script>
 </html>

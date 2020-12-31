@@ -2,7 +2,7 @@
 {
     display: flex;
     justify-content: center;
-    width: 65%;
+    width: 100%;
     margin: 0 auto;
 }
 .products__cards--content
@@ -18,7 +18,10 @@
     width: 930px;
     margin: 0 auto;
 }
-
+.main__currency--table
+{
+    width: 40%;
+}
 footer
 {
     display: flex;
@@ -32,4 +35,11 @@ footer > section:first-of-type
 footer img
 {
     min-width: 100px;
+}
+.asks__grid
+{
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+    margin: 20px auto;
 }
